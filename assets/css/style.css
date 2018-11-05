@@ -1,8 +1,8 @@
 
 
-header {
+h1 {
     text-align: center;
-    padding: 200px;
+    padding: 50px;
     color: black;
 }
 
@@ -12,9 +12,10 @@ body {
     background-color: white;
 }
 
-.timer {
+.timer, .questions {
     border: 2px solid black;
     margin: 50px;
+    padding: 20px;
 
 }
 
