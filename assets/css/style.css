@@ -1,5 +1,23 @@
-<style>
 
 
+header {
+    text-align: center;
+    padding: 200px;
+    color: black;
+}
 
-</style>
+
+body {
+    border: 2px solid black;
+    background-color: white;
+}
+
+.timer {
+    border: 2px solid black;
+    margin: 50px;
+
+}
+
+section {
+    padding:200px;
+}
