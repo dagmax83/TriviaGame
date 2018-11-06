@@ -28,7 +28,9 @@ const myQuestions = [
     },
     correctAnswer: "c"
   },
-  
+
+
+var showResults= 
 
 function showResults(){
 
@@ -64,12 +66,6 @@ myQuestions.forEach( (currentQuestion, questionNumber) => {
 // show number of correct answers out of total
 resultsContainer.innerHTML = numCorrect + ' out 
 
-function timesUp()
-{
-  score = calculateScore()
-  location = "results.html?score=" + score
-}
-setTimeout("timesUp()",60000)
-}
+
 
 </script>
