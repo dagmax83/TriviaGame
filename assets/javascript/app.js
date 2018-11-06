@@ -9,12 +9,12 @@ function buildQuiz(){
     myQuestions.forEach(
         (currentQuestion, QuestionNumber) =>{
             cconst answers = [];
-            
+
         }
     )
 }
 
-function showResults(){
+function showResults() {
     submitButton.addEventListener('click', showResults)
 }
 
@@ -28,78 +28,7 @@ const myQuestions = [
     },
     correctAnswer: "c"
   },
-  {
-    question2: "Who is the strongest?",
-    answers: {
-      a: "Superman",
-      b: "The Terminator",
-      c: "Waluigi, obviously"
-    },
-    correctAnswer: "c"
-  },
-  {
-    question3: "Who is the strongest?",
-    answers: {
-      a: "Superman",
-      b: "The Terminator",
-      c: "Waluigi, obviously"
-    },
-    correctAnswer: "c"
-  },
-  {
-    question4: "Who is the strongest?",
-    answers: {
-      a: "Superman",
-      b: "The Terminator",
-      c: "Waluigi, obviously"
-    },
-    correctAnswer: "c"
-  },
-  {
-    question5: "Who is the strongest?",
-    answers: {
-      a: "Superman",
-      b: "The Terminator",
-      c: "Waluigi, obviously"
-    },
-    correctAnswer: "c"
-  },
-  {
-    question6: "Who is the strongest?",
-    answers: {
-      a: "Superman",
-      b: "The Terminator",
-      c: "Waluigi, obviously"
-    },
-    correctAnswer: "c"
-  },
-  {
-    question7: "Who is the strongest?",
-    answers: {
-      a: "Superman",
-      b: "The Terminator",
-      c: "Waluigi, obviously"
-    },
-    correctAnswer: "c"
-  },
-  {
-    question8: "Who is the strongest?",
-    answers: {
-      a: "Superman",
-      b: "The Terminator",
-      c: "Waluigi, obviously"
-    },
-    correctAnswer9: "c"
-  },
-  {
-    question10: "Who is the strongest?",
-    answers: {
-      a: "Superman",
-      b: "The Terminator",
-      c: "Waluigi, obviously"
-    },
-    correctAnswer: "c"
-  },
+  
 
 function showResults(){
 
@@ -141,6 +70,6 @@ function timesUp()
   location = "results.html?score=" + score
 }
 setTimeout("timesUp()",60000)
-
+}
 
 </script>
